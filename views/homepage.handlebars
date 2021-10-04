@@ -1,0 +1,27 @@
+<div class="d-flex">
+    <div class="d-flex flex-column justify-content-center w-50">
+        <div class="mb-5 mt-3">
+            <h1>
+                Welcome to Investor Center!
+            </h1>
+        </div>
+
+        <div class="container">
+            <h2>Your Portfolios</h2>
+            <div class="row">
+            {{#each portfolios as |portfolio|}}
+            {{> portfolio-details}}
+            {{/each}}
+            </div>    
+        </div>
+
+        <button id="create-portfolio" type="button" class="btn btn-primary">Create Portfolio</button>
+    </div>
+    <div id="chart" class="w-50 pl-4 d-flex justify-content-center align-items-end">
+        <canvas id="myChart"></canvas>
+    </div>  
+</div>
+
+
+<script src="./js/home.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

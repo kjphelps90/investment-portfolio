@@ -1,0 +1,16 @@
+[
+    {
+      "email": "sal@hotmail.com",
+      "username": "salstock",
+      "fname": "Sal",
+      "lname": "Smith",
+      "password": "stocks123"
+    },
+    {
+        "email": "Amy@yahoo.com",
+        "username": "amyinvestor",
+        "fname": "Amy",
+        "lname": "Investor",
+        "password": "invest1"
+      }
+    ]

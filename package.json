@@ -1,0 +1,34 @@
+{
+  "name": "investor-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kay-code-1/investor-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "chart.js": "^3.5.1",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.6",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^3.0.0",
+    "sequelize": "^6.3.5"
+  },
+  "bugs": {
+    "url": "https://github.com/Kay-code-1/investor-portfolio/issues"
+  },
+  "homepage": "https://github.com/Kay-code-1/investor-portfolio#readme"
+}

@@ -1,0 +1,36 @@
+<div class="d-flex flex-column justify-content-center w-75">
+
+    <h1 class="pt-3">Portfolio Details</h1>
+    <div class="d-flex align-items-center justify-content-between">
+        <h4 class="mt-1">
+            Portfolio Name: {{portfolio.portfolio_name}}
+        </h4>
+    
+    <button id="add-investment"
+        type="submit"
+        class="btn btn-primary name-btn my-2">
+        Add Investment <i class="icon-arrow-right"></i>
+    </button>
+
+    </div>
+    
+    <hr>
+    <table class="table table-striped table-hover" id="investment-list">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Purchase Price</th>
+                <th>Total Value</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="investment-list-rows">
+        </tbody>
+    </table>
+    <div id="investment-form" style="display: none;">
+        {{> add-investment}}
+    </div>
+</div>
+<script src="/js/portfolio.js"></script>

@@ -1,0 +1,37 @@
+[
+    {
+        "price": 125,
+        "quantity": 5,
+        "purchase_date": "2021-01-01",
+        "portfolio_id": 1,
+        "symbol_id": 1
+    },
+    {
+        "price": 180,
+        "quantity": 8,
+        "purchase_date": "2021-02-01",
+        "portfolio_id": 1,
+        "symbol_id": 1
+    },
+    {
+        "price": 700,
+        "quantity": 10,
+        "purchase_date": "2021-03-05",
+        "portfolio_id": 2,
+        "symbol_id": 1
+    },
+    {
+        "price": 40,
+        "quantity": 100,
+        "purchase_date": "2021-03-09",
+        "portfolio_id": 2,
+        "symbol_id": 2
+    },
+    {
+        "price": 75,
+        "quantity": 10,
+        "purchase_date": "2021-05-26",
+        "portfolio_id": 2,
+        "symbol_id": 3
+    }
+]

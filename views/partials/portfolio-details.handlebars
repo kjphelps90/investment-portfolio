@@ -1,0 +1,14 @@
+<div class="col-4">
+  <div class="card p-2">
+    <h4>{{portfolio_name}}</h4>
+    <div class="d-flex flex-row justify-content-between">
+      <a class="fs-6" href="/portfolio/{{id}}">
+        <span class="badge rounded-pill bg-primary">View</span>      
+      </a>
+      <span id="delete-portfolio" class="badge rounded-pill bg-danger"
+        onclick="deletePortfolio('{{id}}', '{{portfolio_name}}')">
+        <i class="fas fa-trash-alt"></i>
+      </span>
+    </div>
+  </div>
+</div>
